@@ -51,7 +51,7 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
   flex-direction: column;
 
   .badge-cmp,
@@ -65,13 +65,14 @@
   }
 
   .tag-cmp {
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 3rem;
 
     p {
       width: 100%;
       text-transform: uppercase;
       text-align: right;
+      margin-right: 1rem;
     }
   }
   span {

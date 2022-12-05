@@ -22,10 +22,8 @@ const About = () => {
     <>
       <h2 className="head-text">
         {" "}
-        <span>From automotive wheel design to website design </span>
-        <br />
-        attention to detail is key for any good business
-        <span> Good Business</span>
+        <span>About </span>
+        Me
       </h2>
 
       <div className="app__profiles">
