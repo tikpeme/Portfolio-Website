@@ -6,7 +6,7 @@ import { AppWrap } from "../../wrapper";
 import { images } from "../../constants";
 import "./Header.scss";
 
-const scaleVariants = {
+/*const scaleVariants = {
   whileInView: {
     scale: [0, 1],
     opacity: [0, 1],
@@ -15,7 +15,7 @@ const scaleVariants = {
       ease: "easeInOut",
     },
   },
-};
+};*/
 
 const Header = () => {
   return (
@@ -29,14 +29,35 @@ const Header = () => {
           <div className="badge-cmp app__flex">
             <span>👋</span>
             <div style={{ marginLeft: 20 }}>
-              <p className="p-text"> Hello, I am</p>
-              <h1 className="head-text">Tete</h1>
+              <p className="p-text" style={{ textTransform: "upperCase" }}>
+                {" "}
+                Hello, I am
+              </p>
+              <h1 className="head-text">Tete Ikpeme</h1>
             </div>
           </div>
 
           <div className="tag-cmp app__flex">
             <p className="p-text"> Welcome to my Page </p>
             <span>😁</span>
+          </div>
+
+          <div className="tag-cmp app__flex" style={{ marginBottom: "20px" }}>
+            <p
+              className="p-text"
+              style={{ textAlign: "left", textTransform: "none" }}
+            >
+              I am an aspiring self taught react web developer! <br />I have
+              worked in the Japanese automotive industry for 5 years, designing
+              Chassis parts for Toyota vehicles.
+              <br />
+              Now I am focusing on transfering my love for aesthetic design, and
+              my skills in attention to detail, towards website design
+              <br />I am looking to enter a postion where i can leverage my
+              skills, and continue to grow, and explore my interests, as i
+              transition into this new exciting career field!!
+              <br />
+            </p>
           </div>
         </div>
       </motion.div>

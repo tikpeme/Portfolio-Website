@@ -9,12 +9,6 @@ const SocialMedia = () => {
       <div>
         <BsLinkedin />
       </div>
-      <div>
-        <FaFacebookF />
-      </div>
-      <div>
-        <BsInstagram />
-      </div>
     </div>
   );
 };

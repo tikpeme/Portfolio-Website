@@ -29,7 +29,8 @@ const Work = () => {
     <>
       <h2 className="head-text">
         My
-        <span>Portfolio Projects</span>
+        <span> Portfolio </span>
+        Projects
       </h2>
       <motion.div
         animate={animateCard}

@@ -33,7 +33,7 @@ const Skills = () => {
       scale: [0, 1],
       opacity: [0, 1],
       transition: {
-        duration: 1,
+        duration: 2.1,
         ease: "easeInOut",
       },
     },
@@ -41,7 +41,10 @@ const Skills = () => {
 
   return (
     <>
-      <h2 className="head-text">Skills</h2>
+      <h2 className="head-text">
+        My
+        <span> Skills</span>
+      </h2>
       <div className="app__skill-container">
         <motion.div className="app__skill-list">
           {skills.map((skill) => (

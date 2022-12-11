@@ -1,6 +1,6 @@
 import React from "react";
 
-import { About, Footer, Header, Skills, Testimonials, Work } from "./container";
+import { Footer, Header, Skills, Work } from "./container";
 
 import "./App.scss";
 
@@ -14,9 +14,6 @@ function App() {
       <Skills />
 
       <Work />
-      <About />
-
-      <Testimonials />
       <Footer />
     </div>
   );

@@ -34,10 +34,10 @@
   }
 }
 .app__header-info {
-  flex: 0.65;
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   height: 100%;
 
@@ -51,8 +51,13 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
+  padding-right: 2rem;
+
+  @media screen and (max-width: 400px) {
+    padding-right: 0;
+  }
 
   .badge-cmp,
   .tag-cmp {
@@ -66,7 +71,7 @@
 
   .tag-cmp {
     flex-direction: row;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
 
     p {
       width: 100%;
@@ -110,6 +115,7 @@
     }
   }
 
+  /*
   div:nth-child(1) {
     width: 100px;
     height: 100px;
@@ -138,7 +144,7 @@
       height: 150px;
     }
   }
-
+*/
   @media screen and (max-width: 1200px) {
     width: 100%;
     flex-direction: row;
