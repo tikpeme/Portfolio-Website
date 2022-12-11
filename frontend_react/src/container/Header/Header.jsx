@@ -48,8 +48,8 @@ const Header = () => {
               style={{ textAlign: "left", textTransform: "none" }}
             >
               I am an aspiring self taught react web developer! <br />I have
-              worked in the Japanese automotive industry for 5 years, designing
-              Chassis parts for Toyota vehicles.
+              worked in Toyota R&D for the past 5 years, as a Chassis Design
+              Engineer, making parts for Toyota.
               <br />
               Now I am focusing on transfering my love for aesthetic design, and
               my skills in attention to detail, towards website design
