@@ -55,7 +55,7 @@ const Header = () => {
               my skills in attention to detail, towards website design
               <br />I am looking to enter a postion where i can leverage my
               skills, and continue to grow, and explore my interests, as i
-              transition into this new exciting career field!!
+              transition into this new exciting career field!!!
               <br />
             </p>
           </div>
