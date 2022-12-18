@@ -53,7 +53,6 @@ const Work = () => {
               >
                 <a href={work.projectLink} target="_blank" rel="noreferrer">
                   <motion.div
-                    whileInView={{ scale: [0, 1] }}
                     whileHover={{ opacity: [1, 0.9], scale: [1, 1.3] }}
                     transition={{
                       duration: 0.35,
@@ -67,7 +66,6 @@ const Work = () => {
                 </a>
                 <a href={work.codeLink} target="_blank" rel="noreferrer">
                   <motion.div
-                    whileInView={{ scale: [0, 1] }}
                     whileHover={{ opacity: [1, 0.9], scale: [1, 1.3] }}
                     transition={{
                       duration: 0.35,
