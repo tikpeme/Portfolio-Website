@@ -47,12 +47,15 @@ const Header = () => {
               className="p-text"
               style={{ textAlign: "left", textTransform: "none" }}
             >
-              I am an aspiring self taught react web developer! <br />I have
-              worked in Toyota R&D for the past 5 years, as a Chassis Design
-              Engineer, making parts for Toyota.
+              Highly motivated Self-taught front-end React web developer, with a
+              background in mechanical design engineering in the automotive
+              industry. Seeking to fully transition into a career in web
+              development.
               <br />
-              Now I am focusing on transfering my love for aesthetic design, and
-              my skills in attention to detail, towards website design
+              With my proven ability to learn quickly, solve complex problems,
+              and work collaboratively I am excited to leverage my transferable
+              skills, and showcase my web development expertise to contribute to
+              a dynamic and passionate team and workspace.
               <br />I am looking to enter a postion where i can leverage my
               skills, and continue to grow, and explore my interests, as i
               transition into this new exciting career field!!!
